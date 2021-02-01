@@ -1,7 +1,7 @@
 currentTime = Time.now
-currentTime = currentTime.to_s
+currentTime = currentTime.to_i
 
-if (currentTime = "2021-02-01 03:09:49 +0000"
+if (currentTime.even?)
   puts "Even!"
 else 
   puts "Odd!"
