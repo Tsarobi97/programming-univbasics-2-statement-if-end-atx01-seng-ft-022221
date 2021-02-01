@@ -7,4 +7,3 @@ else
   puts "Odd!"
 end
 
-puts currentTime
